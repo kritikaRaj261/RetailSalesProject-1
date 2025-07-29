@@ -1,17 +1,17 @@
 use  retail
 Create table Retail_Salesnew
                (
-				transactions_id INT PRIMARY KEY,
+		transactions_id INT PRIMARY KEY,
                 sale_date	DATE,
                 sale_time	TIME,
                 customer_id	 INT,
                 gender VARCHAR(25),
                 age	INT,
                 category VARCHAR(30),	
-				quantiy	INT,
+		quantiy	INT,
                 price_per_unit	INT,
                 cogs	INT,
-				total_sale INT
+		total_sale INT
 
                );
 SELECT * FROM retail_salesnew        
